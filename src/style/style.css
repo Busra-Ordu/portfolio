@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, hsl(36deg 29.41% 90%) 100%);
+    background-size: cover;
+}
+.header{
+    /* display: flex;
+    justify-content: center; */
+    padding: 10px;
+    padding-top: 30px;
+}
+.menu{
+    text-align: center;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px;
+}
+a:hover{
+    background-color: rgba(212, 237, 228, 0.407);
+    border-radius: 16px;
+}
+
+/* HOMEPAGE */
+
+.homePage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    color: white;
+    background: url(../style/img/star-2.svg);
+    background-repeat: no-repeat;
+    h1{
+        font-size: 98px;
+    }
+    p{
+        font-size: 26px;
+    }
+}
+.projelerim{
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project{
+    width: 600px;
+    border-radius: 36px;
+    background-color: hsla(284, 61%, 74%, 1);;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    h1,h4{
+        color: white;
+        margin-right: 20px;
+    }
+    h4{
+        margin-top: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    img{
+        margin-top: 55px;
+        height: 300px;
+        width: 500px;
+        border-radius: 12px;
+    }
+}
+.proje2{
+    width: 800px;
+    background-color: hsla(172, 45%, 75%, 1);
+    img{
+        width: 700px;
+    }
+}
+.project1{
+    background-color: hsla(22, 62%, 76%, 1);
+}
+
+.project2{
+    background-color: rgb(154, 243, 243);
+}
+/* content2 */
+
+.content2{
+    h1{
+        color: white;
+        font-size: 70px;
+        text-align: center;
+        margin: 40px 0px;
+    }
+    h2{
+        color: white;
+    }
+    margin-bottom: 150px;
+}
